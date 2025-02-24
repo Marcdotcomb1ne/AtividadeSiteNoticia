@@ -1,5 +1,5 @@
 html, body{
-    background: #11cbac;
+    background: #1e1f1e;
     font-family: 'Inter';
     color: whitesmoke;
     margin: 0 auto; 
@@ -29,11 +29,19 @@ li#unico a {
     text-decoration: none;
     background-color: white;
     margin: 10px;
-    color: #08ad92;
+    color: #1e1f1e;
 }
 li#unico a:hover {
-    background-color: rgb(211, 211, 211);
-  }
+    color: #dbd8d8;
+    transition: .4s;
+}
+
+li a{
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+}
 
 section{
     margin: 100px;
@@ -50,8 +58,8 @@ aside#lateral{
 }
 
 footer{
-    background-color: rgb(255, 255, 255);
-    color: #08ad92;
+    background-color: rgb(131, 127, 127);
+    color: #121313;
     position: relative;
     text-align: center;
     bottom: 0;
