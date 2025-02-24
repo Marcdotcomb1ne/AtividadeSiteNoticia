@@ -12,15 +12,25 @@ header{
 
 .barra{
     text-align: left;
-    background-color: azure;
+    background-color: white;
 }
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+li a:hover {
+    background-color: rgb(211, 211, 211);
   }
 
-  li {
-    display: inline;
-  }
