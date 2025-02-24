@@ -1,5 +1,5 @@
 html, body{
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #11cbac, #08ad92);
     font-family: 'Inter';
     color: whitesmoke;
     margin: 0 auto; 
@@ -29,8 +29,16 @@ li a {
     text-align: center;
     text-decoration: none;
     background-color: white;
+    margin: 10px;
+    color: #08ad92;
 }
 li a:hover {
     background-color: rgb(211, 211, 211);
   }
 
+main{
+    margin: 100px;
+    justify-content: left;
+    width: 400px;
+    height: 400px;
+}
