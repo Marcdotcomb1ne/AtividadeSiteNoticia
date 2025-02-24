@@ -3,7 +3,6 @@ html, body{
     font-family: 'Inter';
     color: whitesmoke;
     margin: 0 auto; 
-    overflow: hidden;
 }
 
 header{
@@ -36,9 +35,12 @@ li a:hover {
     background-color: rgb(211, 211, 211);
   }
 
-main{
+section{
     margin: 100px;
     justify-content: left;
     width: 400px;
-    height: 400px;
+}
+
+aside{
+    
 }
