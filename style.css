@@ -56,6 +56,10 @@ aside#lateral{
     justify-content: left;
     float: right;
 }
+a:hover{
+    color: rgb(131, 127, 127);
+    transition: .4s;
+}
 
 footer{
     background-color: rgb(131, 127, 127);
