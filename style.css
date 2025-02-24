@@ -3,6 +3,7 @@ html, body{
     font-family: 'Inter';
     color: whitesmoke;
     margin: 0 auto; 
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #3a3a3d 15px ), repeating-linear-gradient( #21212255, #000000 );
 }
 
 header{
@@ -38,9 +39,11 @@ li#unico a:hover {
 
 li a{
     color: #ffffff;
+    text-decoration: solid;
 }
 a{
     color: #ffffff;
+    text-decoration: solid;
 }
 
 section{
