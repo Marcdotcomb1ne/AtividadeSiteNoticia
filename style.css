@@ -1,0 +1,16 @@
+html, body{
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: 'Inter';
+    color: whitesmoke;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+}
+
+.barra{
+    text-align: left;
+    background-color: azure;
+}
