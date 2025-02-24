@@ -1,5 +1,5 @@
 html, body{
-    background: linear-gradient(135deg, #11cbac, #08ad92);
+    background: #11cbac;
     font-family: 'Inter';
     color: whitesmoke;
     margin: 0 auto; 
@@ -14,33 +14,43 @@ header{
     background-color: white;
 }
 
-ul{
+ul#unico{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li{
+li#unico{
     display: inline;
 }
 
-li a {
+li#unico a {
     text-align: center;
     text-decoration: none;
     background-color: white;
     margin: 10px;
     color: #08ad92;
 }
-li a:hover {
+li#unico a:hover {
     background-color: rgb(211, 211, 211);
   }
 
 section{
     margin: 100px;
     justify-content: left;
-    width: 400px;
+    width: 500px;
+    float: left;
 }
 
-aside{
-    
+aside#lateral{
+    margin: 100px;
+    text-align: left;
+    justify-content: left;
+    float: right;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: #08ad92;
 }
